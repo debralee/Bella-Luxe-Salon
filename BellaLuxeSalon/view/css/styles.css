@@ -1,0 +1,214 @@
+/* CSS Document
+Colors
+Green #19bb7dff
+Red #e94855ff
+Grey #414857ff
+Purple #b1b0c0ff
+
+*/
+* {
+  box-sizing: border-box;
+}
+
+main img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  /* font-family: 'Noto Serif', serif; */
+  /* font-family: "Outfit", serif; */
+  font-family: Tahoma, Verdana, sans-serif;
+  background-color: white;
+  color: #586662ff;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  text-align: left;
+  padding: 0;
+}
+.logo_type {
+  font-family: "Great Vibes", cursive;
+  color: #e94855ff !important;
+  font-size: 35px;
+}
+.fancy {
+  font-family: "Allura";
+  font-size: 35px;
+  line-height: 95%;
+}
+a:link {
+  text-decoration: none;
+}
+.test {
+  font-size: 12px;
+  padding: 10px;
+  margin: 20px;
+  border: 10px solid #aebdd3;
+  border-radius: 20px;
+  background-color: #aebdd3;
+}
+
+
+/* service section */
+.service {
+  background-color: #42434dff;
+}
+.service_link {
+  background-color: #1c1b20ff;
+}
+/* Carousel beginning */
+.gallery-carousel-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding: 50px 0;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+/* accordion customization */
+.accordion-body img {
+  max-width: 200px;
+  height: auto;
+}
+
+/* Carousel customization */
+#galleryCarousel {
+  position: relative;
+}
+
+#galleryCarousel .carousel-inner {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 500px;
+}
+
+#galleryCarousel .carousel-item {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
+}
+
+/* Side items (prev/next) */
+#galleryCarousel .carousel-item {
+  opacity: 0;
+  transform: scale(0.6) translateX(0);
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Active (center) item */
+#galleryCarousel .carousel-item.active {
+  opacity: 1;
+  transform: scale(1) translateX(0);
+  z-index: 3;
+  position: relative;
+}
+
+/* Previous item (left) */
+#galleryCarousel .carousel-item.prev-item {
+  opacity: 0.5;
+  transform: scale(0.75) translateX(-60%);
+  z-index: 2;
+}
+
+/* Next item (right) */
+#galleryCarousel .carousel-item.next-item {
+  opacity: 0.5;
+  transform: scale(0.75) translateX(60%);
+  z-index: 2;
+}
+
+#galleryCarousel .carousel-item img {
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+#galleryCarousel .carousel-item.active img {
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
+}
+
+/* Controls */
+#galleryCarousel .carousel-control-prev,
+#galleryCarousel .carousel-control-next {
+  width: 8%;
+  opacity: 0.7;
+  z-index: 10;
+}
+
+#galleryCarousel .carousel-control-prev:hover,
+#galleryCarousel .carousel-control-next:hover {
+  opacity: 1;
+}
+
+/* Indicators */
+#galleryCarousel .carousel-indicators {
+  margin-bottom: -40px;
+  z-index: 10;
+}
+
+#galleryCarousel .carousel-indicators button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #6c757d;
+  border: none;
+  opacity: 0.5;
+}
+
+#galleryCarousel .carousel-indicators button.active {
+  opacity: 1;
+  background-color: #000;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #galleryCarousel .carousel-inner {
+    height: 350px;
+  }
+
+  #galleryCarousel .carousel-item img {
+    max-width: 90%;
+  }
+
+  #galleryCarousel .carousel-item.prev-item,
+  #galleryCarousel .carousel-item.next-item {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
+/* carousel end */
+/* testimonial gallery controls */
+#carouselExampleFade .carousel-control-prev,
+#carouselExampleFade .carousel-control-next {
+  width: 8%; /* keeps arrows on the sides */
+}
+
+#carouselExampleFade .carousel-control-prev-icon,
+#carouselExampleFade .carousel-control-next-icon {
+  filter: invert(1); /* optional: makes arrows white */
+}
+/* end testimonial */
+.copywrite {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+.footer a:link {
+  text-decoration: none;
+  color: rgb(179, 191, 221);
+}
+a:hover {
+  color: red;
+}
+
