@@ -127,36 +127,4 @@ class SignupController extends Signup
         return $result;
     }
 
-
-    // if(emptyInputSignup($name, $email, $username, $pwd, $pwdRepeat) !== false){
-    //     header("location: ../view/login.php?error=emptyinput");
-    //     exit();
-    // }
-
-    // if(invalidUid($username) !== false){
-    //     header("location: ../view/login.php?error=invaliduid");
-    //     exit();
-    // }
-
-    // if(invalidEmail($email) !== false){
-    //     header("location: ../view/login.php?error=invalidemail");
-    //     exit();
-    // }
-
-    // if(pwdMatch($pwd, $pwdRepeat) !== false){
-    //     header("location: ../view/login.php?error=passwordsdontmatch");
-    //     exit();
-    // }
-
-    // if(uidExists($conn, $username, $email) !== false){
-    //     header("location: ../view/login.php?error=usernametaken");
-    //     exit();
-    // }
-
-    // createUser($conn, $name, $email, $username, $pwd);
-
-    // public function signup($name, $email, $username, $pwd, $pwdRepeat) {
-    //     $signup = new Signup($name, $email, $username, $pwd, $pwdRepeat);
-    //     $signup->signupUser();
-    // }
 }
