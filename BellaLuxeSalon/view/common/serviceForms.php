@@ -11,6 +11,7 @@
             ?>
 
             <p class="text-info">Current Services and Prices</p>
+            <p class="text-info">To modify a service, change the service name and price, then click the "Modify" button.</p>
 
             <?php if (!empty($results)): ?>
                 <?php foreach ($results as $result): ?>

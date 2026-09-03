@@ -1,8 +1,8 @@
-<!DOCTYPE html>
-<html lang="en-us">
 <?php
 session_start();
 ?>
+<!DOCTYPE html>
+<html lang="en-us">
 
 <head>
     <title><?php echo $title; ?></title>

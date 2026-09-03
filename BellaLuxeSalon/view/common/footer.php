@@ -1,9 +1,12 @@
 <?php
-include ("common/footerPanel.php");
+include("common/footerPanel.php");
 ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
 <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> -->
@@ -39,6 +42,7 @@ include ("common/footerPanel.php");
     // Initial update
     updateCarouselClasses();
 </script>
+<script src="scripts/lightbox-plus-jquery.min.js"></script>
 <script type="text/javascript">
     $("#hamburger").click(function() {
         $("#nav").toggleClass("navT");

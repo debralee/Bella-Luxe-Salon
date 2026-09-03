@@ -16,7 +16,7 @@
             <a href="index.php" class="logo_type text-decoration-none">Bella Luxe Salon</a>
         </div>
         <div class="d-inline-flex p-3">
-            <div class="p-2"><a href="https://www.facebook.com/" target="_blank"><img src="images/faceBookWhite.png" alt="Facebook"></a></div>
+            <div class="p-2"><a href="https://www.facebook.com/" target="_blank"><img src="images/facebookWhite.png" alt="Facebook"></a></div>
             <div class="p-2"><a href="https://www.instagram.com/" target="_blank"><img src="images/instagramWhite.png" alt="Instagram"></a></div>
             <div class="p-2"><a href="https://www.twitter.com/" target="_blank"><img src="images/twitterWhite.png" alt="Twitter"></a></div>
         </div>
