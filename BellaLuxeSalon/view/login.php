@@ -86,7 +86,7 @@ include("common/nav.php");
                             <input type="password" class="form-control" id="password" name="pwd">
                             <input type="checkbox" name="remember" id=""> Remember me
                         </div>
-                        <a href="#" class="btn btn-link">Forgot your password?</a>
+                        <!-- <a href="#" class="btn btn-link">Forgot your password?</a> -->
 
                         <button type="submit" name="submit" class="btn btn-primary">Login</button>
                         <a href="index.php"><button type="button" class="btn btn-warning">Cancel</button></a>

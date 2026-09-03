@@ -5,11 +5,16 @@ include("common/nav.php");
 include "../includes/service.inc.php";
 require_once('../classes/ServiceController.class.php');
 
+$newService = new ServiceController();
+if (!isset($_SESSION['userName'])) {
+    // Reset demo data on page load
+    $newService->resetDemoData();
+}
 
 $serviceArray = ['Haircut and Style', 'Color and Dimension', 'Waves and Texture', 'Spa', 'Permanent Makeup'];
 $resultsArray = [];
 foreach ($serviceArray as $service) {
-    $newService = new ServiceController();
+
     $results = $newService->showServices($service);
     $resultsArray[] = $results;
 }
@@ -19,22 +24,25 @@ foreach ($serviceArray as $service) {
 <!-- InstanceBeginEditable name="content" -->
 <div class="container-fluid">
     <main class="row">
-        <div class="col-12 col-md-4 ps-4">
-            <img class="paul" src="images/paulMitchellLogo.png" width="" height="" alt="Paul Mitchell Logo">
-            <!-- <img class="focus" src="images/focus.png" width="" height="" alt="Focus"> -->
+        <div class="col-12 col-md-8 col-xl-4 ps-4" id="about">
+            <p class="text-info">This salon application was developed as a demonstration of my PHP development skills. The dashboard provides functionality to add, edit, and delete salon services,
+                as well as manage service pricing. Register and log in to explore the application.</p>
+            <img class="paul" id="about" src="images/paulMitchellLogo.png" width="" height="" alt="Paul Mitchell Logo">
             <p class="">Bella Luxe Salon is a full-service, Paul Mitchell Focus Salon dedicated to helping every client look and feel their best. Our experienced stylists are passionate about creating beautiful,
                 personalized looks that fit each client's individual style, personality, and lifestyle.</p>
-            <p class="">We use only high-quality Paul Mitchell products and are committed to providing exceptional service from the moment you walk through our doors. Our stylists participate in regular education and training
-                to stay current with the latest hair care techniques, trends, colors, cuts, and styling methods.</p>
+            <!-- <p class="">We use only high-quality Paul Mitchell products and are committed to providing exceptional service from the moment you walk through our doors. Our stylists participate in regular education and training
+                to stay current with the latest hair care techniques, trends, colors, cuts, and styling methods.</p> -->
             <p class="">Whether you're looking for a fresh new haircut, a beautiful color transformation, highlights, a special-occasion style, or simply some time to relax and pamper yourself, our team is here to help. We
                 take the time to listen to what you want and work with you to achieve a look you'll love.</p>
-            <p class="">At Bella Luxe Salon, we believe great hair is more than just a style—it's about confidence. Our goal is to provide a warm, welcoming salon experience where you can relax, feel comfortable, and leave
-                looking and feeling your very best.</p>
+            <!-- <p class="">At Bella Luxe Salon, we believe great hair is more than just a style—it's about confidence. Our goal is to provide a warm, welcoming salon experience where you can relax, feel comfortable, and leave
+                looking and feeling your very best.</p> -->
 
             <a href="#contact"><button type="button" class="btn btn-outline-secondary contact_btn"
                     name="contact">Contact Us</button></a>
+
         </div>
-        <div class="col-12 col-md-8">
+        <div class="col-12 col-xl-8 flex-column-reverse">
+
             <img class="models" src="images/models.jpg" width="" height="" alt="models">
         </div>
     </main>
@@ -118,7 +126,7 @@ foreach ($serviceArray as $service) {
                         <div class="container">
                             <div class="row my-3">
                                 <div class="col-md-2 d-none d-md-block">
-                                    <img class="img-fluid border border-muted p-3" src="images/red.jpg"
+                                    <img class="img-fluid border border-muted p-3" src="images/red.JPG"
                                         alt="Red Hair Model">
                                 </div>
                                 <div class="d-none d-md-block col-md-4 col-lg-6">
@@ -153,12 +161,12 @@ foreach ($serviceArray as $service) {
 
                                     </table>
                                 </div>
-                                <div class="col-12 col-md-4">
+                                <!-- <div class="col-12 col-md-4">
                                     <h5>Why Get a New Style?</h5>
                                     <p>A fresh cut enhances your natural beauty, boosts confidence, and makes daily
                                         styling effortless. Our stylists create looks tailored to your hair type and
                                         lifestyle—so you always look and feel your best.</p>
-                                </div>
+                                </div> -->
 
                             </div>
                         </div>
@@ -177,7 +185,7 @@ foreach ($serviceArray as $service) {
                         <div class="container">
                             <div class="row my-3">
                                 <div class="col-md-2 d-none d-md-block">
-                                    <img class="img-fluid border border-muted p-3" src="images/blond.jpg"
+                                    <img class="img-fluid border border-muted p-3" src="images/blond.JPG"
                                         alt="Blond Hair Model">
                                 </div>
                                 <div class="d-none d-md-block col-md-4 col-lg-6">
@@ -248,7 +256,7 @@ foreach ($serviceArray as $service) {
                         <div class="container">
                             <div class="row my-3">
                                 <div class="col-md-2 d-none d-md-block">
-                                    <img class="img-fluid border border-muted p-3" src="images/brow.jpg"
+                                    <img class="img-fluid border border-muted p-3" src="images/brow.JPG"
                                         alt="Eyes Brows">
                                 </div>
                                 <div class="d-none d-md-block col-md-4 col-lg-6">
