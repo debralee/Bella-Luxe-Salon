@@ -1,5 +1,3 @@
-# Bella-Luxe-Salon
-Dynamic PHP Application
 # Bella Luxe Salon
 
 Bella Luxe Salon is a web application for managing and showcasing salon services online. It allows visitors to browse services pulled live from a database, register and log in as users, and gives administrators a dashboard to manage the service catalog.
@@ -96,4 +94,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Contact
 
-For questions or feedback, please open an issue in this repository.
+For questions or feedback, please open an issue in the [GitHub repository](https://github.com/debralee/bella-luxe-salon).
