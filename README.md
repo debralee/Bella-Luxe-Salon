@@ -45,7 +45,7 @@ Bella Luxe Salon is a web application for managing and showcasing salon services
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/bella-luxe-salon.git
+   git clone https://github.com/debralee/bella-luxe-salon.git
    ```
 2. Move the project folder into your server's root directory (e.g., `htdocs` for XAMPP)
 3. Import the provided SQL file into your database
