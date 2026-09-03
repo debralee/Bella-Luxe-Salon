@@ -1,1 +1,142 @@
-data
+[
+  {
+    "type": "Haircut and Style",
+    "service": "Women's Cut",
+    "price": "22"
+  },
+  {
+    "type": "Haircut and Style",
+    "service": "Men's Cut",
+    "price": "12"
+  },
+  {
+    "type": "Haircut and Style",
+    "service": "Children's Cut",
+    "price": "10"
+  },
+  {
+    "type": "Haircut and Style",
+    "service": "Hair By Night",
+    "price": "55"
+  },
+  {
+    "type": "Haircut and Style",
+    "service": "High Rise",
+    "price": "75"
+  },
+  {
+    "type": "Haircut and Style",
+    "service": "Low Rise",
+    "price": "55"
+  },
+  {
+    "type": "Haircut and Style",
+    "service": "Casual Braid",
+    "price": "25"
+  },
+  {
+    "type": "Haircut and Style",
+    "service": "Shampoo & Blow Dry",
+    "price": "25"
+  },
+  {
+    "type": "Haircut and Style",
+    "service": "Iron Work",
+    "price": "15"
+  },
+  {
+    "type": "Haircut and Style",
+    "service": "DryBar Experience with Condition Treatment",
+    "price": "40"
+  },
+  {
+    "type": "Color and Dimension",
+    "service": "Partial Highlight",
+    "price": "35"
+  },
+  {
+    "type": "Color and Dimension",
+    "service": "Full Highlights",
+    "price": "85"
+  },
+  {
+    "type": "Color and Dimension",
+    "service": "Color Correction",
+    "price": "50"
+  },
+  {
+    "type": "Color and Dimension",
+    "service": "Block Color",
+    "price": "85"
+  },
+  {
+    "type": "Color and Dimension",
+    "service": "Regrowth Touch Up",
+    "price": "40"
+  },
+  {
+    "type": "Waves and Texture",
+    "service": "Perm",
+    "price": "70"
+  },
+  {
+    "type": "Waves and Texture",
+    "service": "Spiral Perm",
+    "price": "95"
+  },
+  {
+    "type": "Waves and Texture",
+    "service": "Keratin California Smooth",
+    "price": "135"
+  },
+  {
+    "type": "Waves and Texture",
+    "service": "Awapuhi Keratin Treatment",
+    "price": "50"
+  },
+  {
+    "type": "Spa",
+    "service": "Lip or Chin Wax",
+    "price": "8"
+  },
+  {
+    "type": "Spa",
+    "service": "Mini Eyebrows Wax",
+    "price": "8"
+  },
+  {
+    "type": "Spa",
+    "service": "Full Face Wax",
+    "price": "30"
+  },
+  {
+    "type": "Spa",
+    "service": "Full Legs Wax",
+    "price": "60"
+  },
+  {
+    "type": "Spa",
+    "service": "Full Arms Wax",
+    "price": "35"
+  },
+  {
+    "type": "Spa",
+    "service": "Brazilian Wax",
+    "price": "65"
+  },
+  {
+    "type": "Permanent Makeup",
+    "service": "Microblading Eyebrows",
+    "price": "325"
+  },
+  {
+    "type": "Permanent Makeup",
+    "service": "Eyeliner on Top and Bottom Eyelids",
+    "price": "350"
+  },
+  {
+    "type": "Permanent Makeup",
+    "service": "Eyeliner on Top Eyelids Only",
+    "price": "250"
+  }
+]
