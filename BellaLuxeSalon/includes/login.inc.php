@@ -8,7 +8,7 @@ if (isset($_POST['submit'])) {
     $pwd = $_POST['pwd'];
 
     //Instantiate signup class
-    include "../classes/DBConnect.class.php";
+    include "../classes/DbConnect.class.php";
     include "../classes/Login.class.php";
     include "../classes/LoginController.class.php";
 

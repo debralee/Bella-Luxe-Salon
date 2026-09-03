@@ -1,7 +1,7 @@
 <?php
 @session_start(); // Make sure session is started
 
-include "../classes/DBConnect.class.php";
+include "../classes/DbConnect.class.php";
 include "../classes/Service.class.php";
 include "../classes/ServiceController.class.php";
 

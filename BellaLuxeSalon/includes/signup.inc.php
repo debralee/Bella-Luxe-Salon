@@ -10,7 +10,7 @@ if (isset($_POST['submit'])) {
     $email = $_POST['email'];
 
     //Instantiate signup class
-    include "../classes/DBConnect.class.php";
+    include "../classes/DbConnect.class.php";
     include "../classes/Signup.class.php";
     include "../classes/SignupController.class.php";
 
