@@ -25,12 +25,12 @@ foreach ($serviceArray as $service) {
 <div class="container-fluid">
     <main class="row">
         <div class="col-12 col-md-8 col-xl-4 ps-4" id="about">
-            <p class="text-info">This salon application was developed as a demonstration of my PHP development skills. The dashboard provides functionality to add, edit, and delete salon services,
+            <p class="text-info pt-3">This salon application was developed as a demonstration of my PHP development skills. The dashboard provides functionality to add, edit, and delete salon services,
                 as well as manage service pricing. Register and log in to explore the application.</p>
-            <img class="paul" id="about" src="images/paulMitchellLogo.png" width="" height="" alt="Paul Mitchell Logo">
-            <p class="">Bella Luxe Salon is a full-service, Paul Mitchell Focus Salon dedicated to helping every client look and feel their best. Our experienced stylists are passionate about creating beautiful,
+            <img class="paul" id="about" src="images/slogan.png" width="" height="" alt="Beauty Unleashed Logo">
+            <p class="">Bella Luxe Salon is a full-service beauty salon dedicated to helping every client look and feel their best. Our experienced stylists are passionate about creating beautiful,
                 personalized looks that fit each client's individual style, personality, and lifestyle.</p>
-            <!-- <p class="">We use only high-quality Paul Mitchell products and are committed to providing exceptional service from the moment you walk through our doors. Our stylists participate in regular education and training
+            <!-- <p class="">We use only high-quality products and are committed to providing exceptional service from the moment you walk through our doors. Our stylists participate in regular education and training
                 to stay current with the latest hair care techniques, trends, colors, cuts, and styling methods.</p> -->
             <p class="">Whether you're looking for a fresh new haircut, a beautiful color transformation, highlights, a special-occasion style, or simply some time to relax and pamper yourself, our team is here to help. We
                 take the time to listen to what you want and work with you to achieve a look you'll love.</p>
@@ -43,7 +43,7 @@ foreach ($serviceArray as $service) {
         </div>
         <div class="col-12 col-xl-8 flex-column-reverse">
 
-            <img class="models" src="images/models.jpg" width="" height="" alt="models">
+            <img class="img-fluid border border-muted p-3" src="images/pink_hair.jpg" width="" height="" alt="models">
         </div>
     </main>
     <!-- Accordion -->
@@ -102,13 +102,6 @@ foreach ($serviceArray as $service) {
                                         </tbody>
                                     </table>
                                 </div>
-                                <!-- <div class="col-12 col-md-4">
-                                    <h5>Why Get a New Style?</h5>
-                                    <p>A fresh cut enhances your natural beauty, boosts confidence, and makes daily
-                                        styling effortless. Our stylists create looks tailored to your hair type and
-                                        lifestyle—so you always look and feel your best.</p>
-                                </div> -->
-
                             </div>
                         </div>
                     </div>
@@ -161,12 +154,6 @@ foreach ($serviceArray as $service) {
 
                                     </table>
                                 </div>
-                                <!-- <div class="col-12 col-md-4">
-                                    <h5>Why Get a New Style?</h5>
-                                    <p>A fresh cut enhances your natural beauty, boosts confidence, and makes daily
-                                        styling effortless. Our stylists create looks tailored to your hair type and
-                                        lifestyle—so you always look and feel your best.</p>
-                                </div> -->
 
                             </div>
                         </div>
@@ -232,13 +219,6 @@ foreach ($serviceArray as $service) {
 
                                     </table>
                                 </div>
-                                <!-- <div class="col-12 col-md-4">
-                                    <h5>Why Get a New Style?</h5>
-                                    <p>A fresh cut enhances your natural beauty, boosts confidence, and makes daily
-                                        styling effortless. Our stylists create looks tailored to your hair type and
-                                        lifestyle—so you always look and feel your best.</p>
-                                </div> -->
-
                             </div>
                         </div>
                     </div>
@@ -301,13 +281,6 @@ foreach ($serviceArray as $service) {
 
                                     </table>
                                 </div>
-                                <!-- <div class="col-12 col-md-4">
-                                    <h5>Why Get a New Style?</h5>
-                                    <p>A fresh cut enhances your natural beauty, boosts confidence, and makes daily
-                                        styling effortless. Our stylists create looks tailored to your hair type and
-                                        lifestyle—so you always look and feel your best.</p>
-                                </div> -->
-
                             </div>
                         </div>
                     </div>
@@ -377,13 +350,6 @@ foreach ($serviceArray as $service) {
 
                                     </table>
                                 </div>
-                                <!-- <div class="col-12 col-md-4">
-                                    <h5>Why Get a New Style?</h5>
-                                    <p>A fresh cut enhances your natural beauty, boosts confidence, and makes daily
-                                        styling effortless. Our stylists create looks tailored to your hair type and
-                                        lifestyle—so you always look and feel your best.</p>
-                                </div> -->
-
                             </div>
                         </div>
                     </div>
